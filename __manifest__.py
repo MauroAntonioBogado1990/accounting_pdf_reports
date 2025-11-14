@@ -1,6 +1,6 @@
 {
     'name': 'Odoo 18 Accounting Financial Reports',
-    'version': '1.0.2',
+    'version': '18.0.2',
     'category': 'Invoicing Management',
     'description': 'Accounting Reports For Odoo 18, Accounting Financial Reports, '
                    'Odoo 18 Financial Reports',
@@ -42,4 +42,5 @@
     ],
     'pre_init_hook': '_pre_init_clean_m2m_models',
     'images': ['static/description/banner.gif'],
+    'installable': True,
 }
